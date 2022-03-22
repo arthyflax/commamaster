@@ -1,0 +1,8 @@
+textarea{
+    height: 100%;
+    width: 100%;
+    background-color: #423e3e;
+    color: #9a9998;
+    border: 1px solid #4f4a4a;
+    resize:none;
+}

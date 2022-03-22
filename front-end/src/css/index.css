@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    background-color: #221f1f;
+}
+
+.mainWrapper {
+    color: #9a9998;
+    font-size: xx-large;
+    width: 55%;
+}
+@media screen and (orientation: portrait) and (max-height: 900px) {
+    .mainWrapper {
+        font-size: x-large;
+        width:75%
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 900px) {
+    .mainWrapper {
+        font-size: xx-large;
+        width:75%
+    }
+}

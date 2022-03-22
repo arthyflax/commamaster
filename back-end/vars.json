@@ -1,0 +1,3 @@
+{
+    "uri":"mongodb://Matthias:Mathe2016@192.168.2.187:27017/admin?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
+}

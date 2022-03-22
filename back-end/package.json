@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "kommafy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
